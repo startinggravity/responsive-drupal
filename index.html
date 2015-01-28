@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Responsive s'il vous plaît</title>
+  <meta name="description" content="Responsive web design and grid systems.">
+  <meta name="author" content="Jim Smith / Hakim El Hattab">
+  <meta name="apple-mobile-web-app-capable" content="yes" >
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="css/reveal.min.css">
+  <link rel="stylesheet" href="css/smith-default.css" id="theme">
+  <!-- For syntax highlighting -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
+  <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+  <script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+    var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = 'css/print/pdf.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+  </script>
+
+  <!--[if lt IE 9]>
+  <script src="lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <div class="reveal">
+
+    <div class="slides">
+
+    <!-- Title -->
+      <section id="title">
+        <h1>Responsive<br/>s'il vous plaît</h1>
+          <hr/>
+          <h2>Responsive Web Design<br/>and Grid Systems</h2>
+          <p>
+            <small>Presented January 30, 2015 for the DSFederal Drupal Working Group</small>
+          </p>
+        <aside class="notes">
+
+        </aside>
+      </section>
+
+      <!-- Introduction -->
+      <section id="about-jim">
+        <h2>Jim Smith</h2>
+        <p><img src="images/picture-jns.jpg" alt="Jim Smith"></p>
+        <ul>
+          <li>Oak Ridge, Tenn.</li>
+          <li>Front-end Drupal Developer at <a href="http://www.dsfederal.com/" title="DSFederal">DSFederal</a></li>
+          <li>Started using Drupal in 2005</li>
+          <li><a href="https://www.drupal.org/u/jimsmith" title="Jim Smith">Drupal user #16880</a></li>
+        </ul>
+        <aside class="notes">
+[reveal]
+        </aside>
+      </section>
+
+      <!-- Presentation details -->
+      <section id="download">
+        <h2>Play along at home</h2>
+        <p>Download a PDF and the code from this presentation at<br><a href="http://startinggravity.github.io/responsive-drupal/" title="Github">http://startinggravity.github.io/responsive-drupal</a></p>
+        <aside class="notes">
+Download a copy of the presentation to get the links.
+        </aside>
+      </section>
+
+
+
+      <!-- Presentation details - repeat -->
+      <section id="download-2">
+        <h2>Get a copy of this Presentation</h2>
+        <p>Download a PDF and download the code at<br><a href="http://startinggravity.github.io/responsive-drupal/" title="Github">http://startinggravity.github.io/responsive-drupal</a></p>
+        <aside class="notes">
+Download a copy of the presentation to get the links.
+        </aside>
+      </section>
+
+        <!-- Contact -->
+        <section id="contact">
+          <h2>Jim Smith</h2>
+          <p><img src="images/picture-jns.jpg" alt="Jim Smith"></p>
+          <ul>
+            <li>Email: <a href="mailto:jim.smith@dsfederal.com" title="email address">jim.smith@dsfederal.com</a></li>
+            <li>Twitter: <a href="http://twitter.com/_JimSmith_" title="@_JimSmith_">@_JimSmith_</a></li>
+            <li>IRC: startinggravity</li>
+          </ul>
+        </section>
+
+
+    </div>
+  </div>
+
+  <script src="lib/js/head.min.js"></script>
+  <script src="js/reveal.min.js"></script>
+
+  <script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    slideNumber: true,
+    theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+    transition: Reveal.getQueryHash().transition || 'concave', // default/cube/page/concave/zoom/linear/fade/none
+
+    // Parallax scrolling
+    // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+    // parallaxBackgroundSize: '2100px 900px',
+
+    // Optional libraries used to extend on reveal.js
+    dependencies: [
+      { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+        ]
+      });
+    </script>
+</body>
+</html>
