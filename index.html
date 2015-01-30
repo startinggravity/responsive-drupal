@@ -29,15 +29,15 @@
 </head>
 
 <body>
-  <div class="reveal">
+<div class="reveal">
+  <div class="slides">
+    <!-- slidess start -->
 
-    <div class="slides">
-
-    <!-- Title -->
+      <!-- Title -->
       <section id="title">
-        <h1>Responsive<br/>s'il vous plaît</h1>
+        <h1>Thinking Inside and<br/>Outside the Grid</h1>
           <hr/>
-          <h2>Responsive Web Design<br/>and Grid Systems</h2>
+          <h2>Responsive Web Design for Drupal</h2>
           <p>
             <small>Presented January 30, 2015 for the DSFederal Drupal Working Group</small>
           </p>
@@ -56,45 +56,261 @@
           <li>Started using Drupal in 2005</li>
           <li><a href="https://www.drupal.org/u/jimsmith" title="Jim Smith">Drupal user #16880</a></li>
         </ul>
+
+      </section>
+
+      <!-- mobile 1-->
+      <section id="mobile-1" data-transition="slide" data-background-transition="slide" data-background="images/rusty-226572_1920.jpg">
+        <h2 class="text-background">If you're not mobile,<br/>you're not going anywhere.</h2>
         <aside class="notes">
-[reveal]
+          Let's get this out of the way -- it should be obvious by now.
         </aside>
       </section>
 
-      <!-- Presentation details -->
-      <section id="download">
-        <h2>Play along at home</h2>
-        <p>Download a PDF and the code from this presentation at<br><a href="http://startinggravity.github.io/responsive-drupal/" title="Github">http://startinggravity.github.io/responsive-drupal</a></p>
+      <!-- mobile 2-->
+      <section id="mobile-2" data-transition="slide" data-background-transition="slide" data-background="images/number1.jpg">
+        <h2 class="text-background">So start with mobile!</h2>
         <aside class="notes">
-Download a copy of the presentation to get the links.
+          So start everything you do with mobile. Mobile first is more than just a starting point.
         </aside>
       </section>
 
-
-
-      <!-- Presentation details - repeat -->
-      <section id="download-2">
-        <h2>Get a copy of this Presentation</h2>
-        <p>Download a PDF and download the code at<br><a href="http://startinggravity.github.io/responsive-drupal/" title="Github">http://startinggravity.github.io/responsive-drupal</a></p>
+      <!-- mobile 3-->
+      <section id="mobile-3" data-transition="slide" data-background-transition="slide" data-background="images/maze-298838_1920.jpg">
+        <h2 class="text-background">And keep it simple.</h2>
         <aside class="notes">
-Download a copy of the presentation to get the links.
+          Don't complicate things unnecessarily. Fortunately, thinking 'mobile first' forces you to keep things simple.
         </aside>
       </section>
 
-        <!-- Contact -->
-        <section id="contact">
-          <h2>Jim Smith</h2>
-          <p><img src="images/picture-jns.jpg" alt="Jim Smith"></p>
-          <ul>
-            <li>Email: <a href="mailto:jim.smith@dsfederal.com" title="email address">jim.smith@dsfederal.com</a></li>
-            <li>Twitter: <a href="http://twitter.com/_JimSmith_" title="@_JimSmith_">@_JimSmith_</a></li>
-            <li>IRC: startinggravity</li>
-          </ul>
-        </section>
+      <!-- bored -->
+      <section id="bored" data-transition="slide" data-background-transition="slide" data-background="images/hangover-323035_1920.jpg">
 
+        <aside class="notes">
+          Am I boring you yet? You've likely heard this before or it seems obvious, but let's drill down to make sure we fully understand why we should be mobile first.
+        </aside>
+      </section>
 
-    </div>
+      <!-- what makes it mobile-->
+      <section id="what-mobile-1" data-transition="slide" data-background-transition="slide" data-background="images/smartphone-459316_1920.jpg">
+        <h2 class="text-background">What makes it mobile?</h2>
+        <aside class="notes">
+          What about the mobile experience is so different that we should think about it first?
+        </aside>
+      </section>
+
+      <!-- drill down -->
+      <section id="what-mobile-2">
+        <h2>What makes it mobile?</h2>
+        <ul>
+          <li class="fragment">Hand-held device</li>
+          <li class="fragment">Smaller screen</li>
+          <li class="fragment">Probably used in shorter sessions</li>
+          <li class="fragment">Touch interface</li>
+          <li class="fragment">Possibly slower connection</li>
+          <li class="fragment">Possibly used in a location context</li>
+        </ul>
+        <aside class="notes">
+          [REVEAL] Yes, these things differentiate a mobile experience from a desktop experience, but they also present opportunities for making a better user experience on all devices.
+        </aside>
+      </section>
+
+      <!-- mobile first makes desktop better 1 -->
+      <section id="mobile-to-desktop-1" data-transition="slide" data-background-transition="slide" data-background="images/smartphone-593321_1920.jpg">
+        <aside class="notes">
+          Making your design, your funcitonality work in the hectic, cluttered mobile world...
+        </aside>
+      </section>
+
+      <!-- mobile first makes desktop better 2-->
+      <section id="mobile-to-desktop-2" data-transition="slide" data-background-transition="slide" data-background="images/business-437020_1920.jpg">
+        <aside class="notes">
+          ...makes your user experience better in a desktop environment.
+        </aside>
+      </section>
+
+      <!-- mobile first makes desktop better 3 -->
+      <section id="mobile-to-desktop-3" data-transition="slide" data-background-transition="slide" data-background="images/twitter-292988_1920.jpg">
+        <h2 class="text-background">Mobile apps are your competition.</h2>
+        <aside class="notes">
+          Good mobile apps developers know how to cram lots of content into small spaces and make it accessible. We need to do that too.
+        </aside>
+      </section>
+
+      <!-- mobile first makes desktop better 4 -->
+      <section id="mobile-to-desktop-4" data-transition="slide" data-background-transition="slide" data-background="images/speed-164063.jpg">
+        <h2 class="text-background">Speed is your competition.</h2>
+        <aside class="notes">
+          Your users have come to expect everything is fast. Bad design can slow them down, regardless of whether they are viewing on a mobile or desktop screen.
+        </aside>
+      </section>
+
+      <!-- think 1 -->
+      <section id="think-1" data-transition="slide" data-background-transition="slide" data-background="images/angel-204158_1920.jpg">
+        <aside class="notes">
+          These are all things to think about before you begin a design. That's thinkiing outside the grid.
+        </aside>
+      </section>
+
+      <!-- think 2 -->
+      <section id="think-2" data-transition="slide" data-background-transition="slide" data-background="images/hockey-557219_1920.jpg">
+
+        <aside class="notes">
+          Now let's think inside the grid.
+        </aside>
+      </section>
+
+      <!-- grid 1 -->
+      <section id="grid-1" data-transition="slide" data-background-transition="slide" data-background="images/newspaper-433600_1920.jpg">
+        <h2 class="text-background">Grids are nothing new.</h2>
+        <aside class="notes">
+          The idea of using a grid to layout something has been around for centuries. Newspapers adopted them to organize content and make it easy for the reader to flow from one story to the next.
+        </aside>
+      </section>
+
+      <!-- grid 2 -->
+      <section id="grid-2" data-transition="slide" data-background-transition="slide" data-background="images/back-18713_1920.jpg">
+        <h2 class="text-background">To be responsive,<br/>you have to be flexible.</h2>
+        <aside class="notes">
+          It's easy to get locked into a grid pattern, but that will cause you and your user grief if you do. Keep your grid flexible.
+        </aside>
+      </section>
+
+      <!-- grid 3 -->
+      <section id="grid-3" data-transition="slide" data-background-transition="slide" data-background="images/metal-196305_1920.jpg">
+        <h2 class="text-background">Grid Frameworks</h2>
+        <aside class="notes">
+          Adopting a grid framework can take out a lot of the work while gaining all of the benefits of a grid.
+        </aside>
+      </section>
+
+      <!-- framework advantages -->
+      <section id="framework-advantages">
+        <h2>Advantages</h2>
+        <ul>
+          <li class="fragment">A quick start to designing.</li>
+          <li class="fragment">Unifomity and structure in the design.</li>
+          <li class="fragment">Repeatability and maintainability.</li>
+        </ul>
+        <aside class="notes">
+          The advantages have made frameworks widely adopted.
+        </aside>
+      </section>
+
+      <!-- framework disadvantages -->
+      <section id="framework-disadvantages">
+        <h2>Disadvantages</h2>
+        <ul>
+          <li class="fragment">Can be a design crutch.</li>
+          <li class="fragment">Can make all sites look the same.</li>
+          <li class="fragment">Can be hard to learn and master.</li>
+          <li class="fragment">Design specs don't always match framework.</li>
+        </ul>
+        <aside class="notes">
+          Frameworks can stifle creativity.
+        </aside>
+      </section>
+
+      <!-- Bootstrap -->
+      <section id="bootstrap">
+        <h2>Bootstrap</h2>
+        <img src="images/bootstrap.jpg" alt="Bootstrap">
+        <p><a href="http://getbootstrap.com" title="Bootstrap">getbootstrap.com</a></p>
+        <aside class="notes">
+          Developed by Twitter, widely used, originally just used Less.
+        </aside>
+      </section>
+
+      <!-- Foundation -->
+      <section id="foundation">
+        <h2>Foundation</h2>
+        <img src="images/foundation.jpg" alt="Foundation">
+        <p><a href="http://foundation.zurb.com/" title="Foundation">foundation.zurb.com</a></p>
+        <aside class="notes">
+          Developed by Zurb, a design firm.
+        </aside>
+      </section>
+
+      <!-- Omega -->
+      <section id="omega">
+        <h2>Omega</h2>
+        <img src="images/omega.jpg" alt="Omega">
+        <p><a href="http://drupal.org/project/omega/" title="Omega">drupal.org/project/omega</a></p>
+        <aside class="notes">
+          Started as subtheme; uses Susy grid (960grid used in version 3); version 5/D8 in development.
+        </aside>
+      </section>
+
+      <!-- Zen -->
+      <section id="zen">
+        <h2>Zen</h2>
+        <img src="images/zen.jpg" alt="Zen">
+        <p><a href="http://drupal.org/project/zen/" title="Zen">drupal.org/project/zen</a></p>
+        <aside class="notes">
+          Uses Zen grid, developed by John Albin Wilkin
+        </aside>
+      </section>
+
+      <!-- compare frameworks -->
+      <section id="framework-comparison">
+        <h2>Similarities</h2>
+        <ul>
+          <li class="fragment">Intended for mobile first design.</li>
+          <li class="fragment">Based on a 12-column grid.</li>
+          <li class="fragment">Use predefined classes to set columns.</li>
+          <li class="fragment">Additional predefined classes for more customization.</li>
+        </ul>
+        <aside class="notes">
+          Frameworks can stifle creativity.
+        </aside>
+      </section>
+
+      <!-- Aurora -->
+      <section id="aurora">
+        <h2>Aurora</h2>
+        <img src="images/aurora.jpg" alt="Aurora">
+        <p><a href="http://snugug.github.io/Aurora/" title="Aurora">snugug.github.io/Aurora</a></p>
+        <aside class="notes">
+          Uses Singularity grid; uses Bower, Gulp, Yeoman to install and manage; developed by Ian Carrico and Sam Richard
+        </aside>
+      </section>
+
+      <!-- compare Aurora -->
+      <section id="aurora-comparison">
+        <h2>Aurora is different.</h2>
+        <ul>
+          <li class="fragment">Does not require set classes.</li>
+          <li class="fragment">Uses minimal markup.</li>
+          <li class="fragment">Effectively driven by Compass extensions.</li>
+          <li class="fragment">Third-party tools like Gulp, Yeoman, Livereload are built in.</li>
+          <li class="fragment">Organize files using BEM, SMACCS, something else? No problem.</li>
+        </ul>
+        <aside class="notes">
+          Bower = package manager; Gulp = task runner; Yeoman = generator.
+        </aside>
+      </section>
+
+      <!-- confused -->
+      <section id="confused" data-transition="slide" data-background-transition="slide" data-background="images/sunlight-166733_1920.jpg">
+        <h2 class="text-background">Find your own way.</h2>
+        <aside class="notes">
+          I dislike Bootstrap, Foundation, etc., but it might be the right path for you.
+        </aside>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact">
+        <h2>Jim Smith</h2>
+        <p><img src="images/picture-jns.jpg" alt="Jim Smith"></p>
+        <ul>
+          <li>Email: <a href="mailto:jim.smith@dsfederal.com" title="email address">jim.smith@dsfederal.com</a></li>
+          <li>Twitter: <a href="http://twitter.com/_JimSmith_" title="@_JimSmith_">@_JimSmith_</a></li>
+          <li>IRC: startinggravity</li>
+        </ul>
+      </section>
+    <!-- slides end -->
   </div>
+</div>
 
   <script src="lib/js/head.min.js"></script>
   <script src="js/reveal.min.js"></script>
